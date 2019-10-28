@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+main {
+    font-family: 'Arial';
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.body {
+    width: 1280px;
+    background-image: url(../img/s1200.png);
+    background-color: rgba(185, 203, 222, 0.5);
+    background-repeat: space;
+}
+
+.header {
+    width: 1280px;
+    height: 323px;
+    background-color: rgba(68, 81, 98, 0.8);
+    padding: 50px;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.header div {
+    float: left;
+}
+
+.header .h1 {
+    display: block;
+    font-family: ArialMT;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.header .header-img {
+    float: right;
+    background-color: white;
+}
+
+.header ul li {
+    font-family: ArialMT;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    list-style-type: none;
+    left: 35px;
+}
+
+.header ul li:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 10px;
+    left: -35px;
+    background-image: url(../img/check_icon_347.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-product {
+    clear: both;
+    width: 1280px;
+    height: 345px;
+    padding: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.about-product .text {
+    display: block;
+    float: left;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}
+
+.about-product .h2 {
+    display: block;
+    padding: 0;
+    margin-bottom: 32px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8f97a0;
+}
+
+.about-product .text > p {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: ArialMT;
+    width: 655px;
+    height: 61px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about-product .pic {
+    display: block;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Dignity {
+    width: 1280px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.Dignity .h2 {
+    display: block;
+    width: 100%;
+    padding-bottom: 32px;
+    text-align: center;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+details {
+    display: block;
+    width: 528px;
+    height: 108px;
+}
+
+.details p,
+.details summary {
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.details summary {
+    position: relative;
+}
+
+.details summary::-webkit-details-marker {
+    display: none;
+}
+
+.details summary:before {
+    content: "";
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+    background-image: url(../img/snimok.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scrinshots {
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+}
+
+.scrinshots .h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.scrinshots-figure {
+    margin: 0;
+    width: 580px;
+    padding-top: 25px;
+}
+
+.scrinshots-figure img {
+    width: 200px;
+    height: 150px;
+}
+
+.figcaption {
+    display: block;
+    width: 365px;
+    float: right;
+}
+
+.figcaption .description {
+    display: block;
+    width: 365px;
+    box-sizing: border-box;
+    font-family: ArialMT;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #445161;
+}
+
+.scrinshots-figure .figcaption p {
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    width: 349px;
+    box-sizing: border-box;
+}
